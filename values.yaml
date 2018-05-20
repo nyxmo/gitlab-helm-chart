@@ -19,7 +19,7 @@ legoEmail: nwild@nyxmo.com
 #baseIP: 1.1.1.1
 nameOverride: gitlab
 # `ce` or `ee`
-gitlab: ce
+gitlab: ee
 gitlabCEImage: gitlab/gitlab-ce:10.6.2-ce.0
 gitlabEEImage: gitlab/gitlab-ee:10.6.2-ee.0
 postgresPassword: NDl1ZjNtenMxcWR6NXZnbw==
@@ -43,7 +43,7 @@ gitlabConfigAccessMode: ReadWriteOnce
 #gitlabConfigStorageSize: 1Gi
 gitlabRunnerImage: gitlab/gitlab-runner:alpine-v10.6.0
 # Valid values for provider are `gke` for Google Container Engine. Leaving it blank (or any othervalue) will disable fast disk options.
-provider: 
+provider: nyxmo
 
 # Gitlab pages
 # The following 3 lines are needed to enable gitlab pages.
